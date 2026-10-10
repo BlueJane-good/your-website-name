@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Digital Team — a rooted and tech-driven global marketing agency connecting global strategy, local relevance and technology at scale." />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Digital Team — Rooted & Tech-Driven Global Marketing Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="progress" data-progress aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="site-logo" href="#/" aria-label="Digital Team home">
+        <img class="brand-logo-image" src="assets/brand-logo-white.svg" alt="Digital Team" data-brand-logo />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span class="menu-label">Menu</span><span class="menu-glyph" aria-hidden="true">+</span>
+      </button>
+      <button class="contact-nav" type="button" data-contact>Work with us <span aria-hidden="true">+</span></button>
+      <details class="region-menu"><summary>Regions <span aria-hidden="true">+</span></summary><div class="region-menu-list"><a href="https://www.digiplus-intl.com/me" target="_blank" rel="noopener">ME</a><a href="https://www.digiplus-intl.com/sea" target="_blank" rel="noopener">SEA</a></div></details>
+    </header>
+
+    <aside class="mobile-menu" data-mobile-menu aria-hidden="true">
+      <div class="menu-kicker">Explore Digital Team</div>
+      <nav aria-label="Mobile navigation">
+        <a href="#/" data-route-link="/"><span>01</span>Home</a>
+        <a href="#/resources" data-route-link="/resources"><span>02</span>Resources</a>
+        <a href="#/cases" data-route-link="/cases"><span>03</span>Cases</a>
+        <a href="#/host-agency" data-route-link="/host-agency"><span>04</span>Host Agency</a>
+        <a href="#/business" data-route-link="/business"><span>05</span>Business</a>
+      </nav>
+      <div class="mobile-menu-meta">
+        <a href="mailto:digital-team@sg.digiplus-intl.com">digital-team@sg.digiplus-intl.com</a>
+        <span>Singapore · Bangkok · Kuala Lumpur · Dubai</span>
+        <button class="menu-contact" type="button" data-contact>Start a project <span aria-hidden="true">↗</span></button>
+      </div>
+    </aside>
+
+    <main id="app"></main>
+
+    <div class="toast" data-toast role="status" aria-live="polite">Thanks — our team will be in touch shortly.</div>
+    <script src="script.js"></script>
+  </body>
+</html>
